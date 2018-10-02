@@ -1,6 +1,12 @@
 // Biz Logic
 var textOutput = function(){
-  return textInput + "!";
+ switch (textInput) {
+   case "hello":
+    return textInput + "!";
+      break;
+   default:
+    return textInput + "?";
+  }
 };
 
 //UI Logic
